@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="pastel">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Komorebi Home Coffee</title>
+</head>
+<body>
+  <style>
+     html {
+    scroll-behavior: smooth;
+    } 
+    /* Define @font-face rule */
+    @font-face {
+        font-family: 'BodoniStdRoman';
+        src: url('fonts/Bodoni Std Roman.otf') format('opentype');
+    }
+
+    /* Use the custom font */
+    body {
+        font-family: 'BodoniStdRoman', serif;
+    }
+
+    /* Additional CSS styles */
+    h1 {
+        color: #333;
+    }
+</style>
+<div class="navbar bg-base-100 flex justify-center items-center">
+  <div class="navbar-start mx-auto flex justify-center">
+    <div class="dropdown lg:hidden md:hidden sm:hidden">
+      <label tabindex="0" class="btn btn-ghost hidden md:inline-flex">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </label>
+    </div>
+    <a class="btn btn-ghost normal-case text-xl">komorebi 🌿</a>
+  </div>
+</div>
+  <!-- <div class="hero min-h-screen" style="background-image: url(https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1287&q=80);"> -->
+    <div class="hero min-h-screen bg-base-100 flex items-center justify-center">
+      <div class="text-center p-6 md:p-12">
+        <h1 class="text-5xl font-bold">komorebi</h1>
+        <p class="text-2xl mt-4 mb-6">木漏れ日</p>
+        <p class="italic">[koh-moh-ray-bee]</p>
+        <p class="text-xl mt-4 mb-6"> ─ the beautiful moment when the sunlight filters through the leaves on the trees.</p>
+        <a href="#menu" class="btn btn-primary mt-6">explore menu</a>
+        <a href="#gallery" class="btn btn-secondary mt-2">view photos</a>
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <div id="gallery" class="hero min-h-screen bg-base-100 flex items-center justify-center">
+    <div class="text-center p-6 md:p-12">
+      <h2 class="text-4xl font-bold">📸</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+      <div class="gallery-item w-full">
+        <label for="image1">
+          <img src="C:\Users\Mon\komorebi\images\komorebi-1.jpg" alt="Image 1" class="w-full h-64 object-cover rounded cursor-pointer">
+        </label>
+        <input type="checkbox" id="image1" class="modal-toggle">
+        <div class="modal">
+          <div class="modal-box">
+            <img src="C:\Users\Mon\komorebi\images\komorebi-1.jpg" alt="Image 1" class="w-full">
+            <label for="image1" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          </div>
+        </div>
+      </div>
+      
+      <div class="gallery-item w-full">
+        <label for="image2">
+          <img src="C:\Users\Mon\komorebi\images\komorebi-2.jpg" alt="Image 1" class="w-full h-64 object-cover rounded cursor-pointer">
+        </label>
+        <input type="checkbox" id="image2" class="modal-toggle">
+        <div class="modal">
+          <div class="modal-box">
+            <img src="C:\Users\Mon\komorebi\images\komorebi-2.jpg" alt="Image 2" class="w-full">
+            <label for="image2" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-item w-full">
+        <label for="image3">
+          <img src="C:\Users\Mon\komorebi\images\komorebi-3.jpg" alt="Image 3" class="w-full h-64 object-cover rounded cursor-pointer">
+        </label>
+        <input type="checkbox" id="image3" class="modal-toggle">
+        <div class="modal">
+          <div class="modal-box">
+            <img src="C:\Users\Mon\komorebi\images\komorebi-3.jpg" alt="Image 3" class="w-full">
+            <label for="image3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item w-full">
+        <label for="image9">
+          <img src="C:\Users\Mon\komorebi\images\komorebi-9.jpg" alt="Image 9" class="w-full h-64 object-cover rounded cursor-pointer">
+        </label>
+        <input type="checkbox" id="image9" class="modal-toggle">
+        <div class="modal">
+          <div class="modal-box">
+            <img src="C:\Users\Mon\komorebi\images\komorebi-9.jpg" alt="Image 9" class="w-full">
+            <label for="image9" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item w-full">
+        <label for="image10">
+          <img src="C:\Users\Mon\komorebi\images\komorebi-10.jpg" alt="Image 10" class="w-full h-64 object-cover rounded cursor-pointer">
+        </label>
+        <input type="checkbox" id="image10" class="modal-toggle">
+        <div class="modal">
+          <div class="modal-box">
+            <img src="C:\Users\Mon\komorebi\images\komorebi-10.jpg" alt="Image 10" class="w-full">
+            <label for="image10" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item w-full">
+        <label for="image11">
+          <img src="C:\Users\Mon\komorebi\images\komorebi-11.jpg" alt="Image 11" class="w-full h-64 object-cover rounded cursor-pointer">
+        </label>
+        <input type="checkbox" id="image11" class="modal-toggle">
+        <div class="modal">
+          <div class="modal-box">
+            <img src="C:\Users\Mon\komorebi\images\komorebi-11.jpg" alt="Image 11" class="w-full">
+            <label for="image11" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Menu Section -->
+<div id="menu" class="hero min-h-screen bg-base-100 flex items-center justify-center">
+  <div class="container mx-auto mt-10 mb-10 px-8">
+    <h2 class="text-2xl font-bold mb-5 text-center">komorebi menu</h2>
+    <div class="max-w-3xl mx-auto">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Coffee</h3>
+          <div class="space-y-2">
+            <div class="flex justify-between">
+              <span>Coffee drip</span>
+              <span>80฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Americano</span>
+              <span>80฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Latte</span>
+              <span>90฿</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Milk</h3>
+          <div class="space-y-2">
+            <div class="flex justify-between">
+              <span>Hojicha</span>
+              <span>85฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Matcha premium</span>
+              <span>80฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Strawberry</span>
+              <span>80฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Cocoa premium</span>
+              <span>70฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Thai tea</span>
+              <span>65฿</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Fresh milk</span>
+              <span>65฿</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8">
+        <h3 class="text-xl font-semibold mb-4">Soda</h3>
+        <div class="space-y-2">
+          <div class="flex justify-between">
+            <span>Violet garden</span>
+            <span>70฿</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Honey and lime</span>
+            <span>70฿</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Plum</span>
+            <span>65฿</span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-8">
+        <h3 class="text-xl font-semibold mb-4">Water</h3>
+        <div class="space-y-2">
+          <div class="flex justify-between">
+            <span>Water</span>
+            <span>10฿</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- SPECIALTY COFFEE SECTION -->
+
+  <!-- <div class="container mx-auto mt-10 mb-10 px-4">
+    <h2 class="text-xl font-bold mb-5 text-center">Our Specialty Coffees</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card bg-base-100 shadow-md">
+        <figure class="h-64">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Coffee 1" class="object-cover w-full h-full" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="card-title text-lg">Sunlit Blend</h2>
+          <p class="text-sm">A smooth and balanced blend that captures the essence of komorebi.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <figure class="h-64">
+          <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Coffee 2" class="object-cover w-full h-full" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="card-title text-lg">Misty Forest</h2>
+          <p class="text-sm">A rich and earthy blend reminiscent of a serene forest.</p>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-md">
+        <figure class="h-64">
+          <img src="https://images.unsplash.com/photo-1525480122447-64809d765ec4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="Coffee 3" class="object-cover w-full h-full" />
+        </figure>
+        <div class="card-body p-6">
+          <h2 class="card-title text-lg">Golden Hour</h2>
+          <p class="text-sm">A bright and invigorating blend that evokes the warmth of the sun.</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- SPECIALTY COFFEE SECTION -->
+
+  <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <div>
+      <p class="font-bold">
+        Komorebi Coffee Shop
+      </p> 
+      <p>Embrace the beauty of dappled sunlight</p>
+      <p>123 Komorebi Street, City, Country</p>
+    </div>
+    <div>
+      <div class="grid grid-flow-col gap-4">
+        <a href="https://www.facebook.com/profile.php?id=61559159578211" target="_blank" class="link link-hover">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/komorebi_homecoffee/" target="_blank" class="link link-hover">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+        </a>
+        <a href="https://maps.app.goo.gl/Sh1bVinxzVmcLaWB7" target="_blank" class="link link-hover">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
+  </script>
+</body>
+</html>
