@@ -48,8 +48,8 @@
         <p class="text-2xl mt-4 mb-6">木漏れ日</p>
         <p class="italic">[koh-moh-ray-bee]</p>
         <p class="text-xl mt-4 mb-6"> ─ the beautiful moment when the sunlight filters through the leaves on the trees.</p>
-        <a href="#menu" class="btn btn-primary mt-6">menu</a>
-        <a href="#gallery" class="btn btn-secondary mt-2">gallery</a>
+        <a href="#menu" class="btn btn-primary mt-6" style="background-color: #A5D6A7; color: #4E342E;">menu</a>
+        <a href="#gallery" class="btn btn-secondary mt-2" style="background-color: #FFCCBC; color: #424242;">gallery</a>
       </div>
     </div>
     
@@ -58,7 +58,7 @@
   </div>
   <div id="gallery" class="hero min-h-screen bg-base-100 flex items-center justify-center">
     <div class="text-center p-6 md:p-12">
-      <h2 class="text-4xl font-bold">📸</h2>
+      <h2 class="text-4xl font-bold">gallery</h2>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
       <div class="gallery-item w-full">
         <label for="image1">
@@ -140,23 +140,23 @@
   <!-- Menu Section -->
 <div id="menu" class="hero min-h-screen bg-base-100 flex items-center justify-center">
   <div class="container mx-auto mt-10 mb-10 px-8">
-    <h2 class="text-2xl font-bold mb-5 text-center">komorebi menu</h2>
+    <h2 class="text-4xl font-bold mb-10 text-center">komorebi menu</h2>
     <div class="max-w-3xl mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div>
           <h3 class="text-xl font-semibold mb-4">Coffee</h3>
           <div class="space-y-2">
             <div class="flex justify-between">
-              <span>Coffee drip</span>
-              <span>80฿</span>
+              <span>Coffee Drip</span>
+              <!-- <span>80฿</span> -->
             </div>
             <div class="flex justify-between">
               <span>Americano</span>
-              <span>80฿</span>
+              <!-- <span>80฿</span> -->
             </div>
             <div class="flex justify-between">
               <span>Latte</span>
-              <span>90฿</span>
+              <!-- <span>90฿</span> -->
             </div>
           </div>
         </div>
@@ -165,27 +165,27 @@
           <div class="space-y-2">
             <div class="flex justify-between">
               <span>Hojicha</span>
-              <span>85฿</span>
+              <!-- <span>85฿</span> -->
             </div>
             <div class="flex justify-between">
-              <span>Matcha premium</span>
-              <span>80฿</span>
+              <span>Matcha Premium</span>
+              <!-- <span>80฿</span> -->
             </div>
             <div class="flex justify-between">
               <span>Strawberry</span>
-              <span>80฿</span>
+              <!-- <span>80฿</span> -->
             </div>
             <div class="flex justify-between">
-              <span>Cocoa premium</span>
-              <span>70฿</span>
+              <span>Cocoa Premium</span>
+              <!-- <span>70฿</span> -->
             </div>
             <div class="flex justify-between">
-              <span>Thai tea</span>
-              <span>65฿</span>
+              <span>Thai Tea</span>
+              <!-- <span>65฿</span> -->
             </div>
             <div class="flex justify-between">
-              <span>Fresh milk</span>
-              <span>65฿</span>
+              <span>Fresh Milk</span>
+              <!-- <span>65฿</span> -->
             </div>
           </div>
         </div>
@@ -194,25 +194,25 @@
         <h3 class="text-xl font-semibold mb-4">Soda</h3>
         <div class="space-y-2">
           <div class="flex justify-between">
-            <span>Violet garden</span>
-            <span>70฿</span>
+            <span>Violet Garden</span>
+            <!-- <span>70฿</span> -->
           </div>
           <div class="flex justify-between">
-            <span>Honey and lime</span>
-            <span>70฿</span>
+            <span>Honey and Lime</span>
+            <!-- <span>70฿</span> -->
           </div>
           <div class="flex justify-between">
             <span>Plum</span>
-            <span>65฿</span>
+            <!-- <span>65฿</span> -->
           </div>
         </div>
       </div>
       <div class="mt-8">
-        <h3 class="text-xl font-semibold mb-4">Water</h3>
+        <!-- <h3 class="text-xl font-semibold mb-4">Water</h3> -->
         <div class="space-y-2">
           <div class="flex justify-between">
-            <span>Water</span>
-            <span>10฿</span>
+            <!-- <span>Water</span> -->
+            <!-- <span>10฿</span> -->
           </div>
         </div>
       </div>
@@ -220,6 +220,93 @@
   </div>
 </div>
 
+<div id="" class="hero min-h-screen bg-base-100 flex items-center justify-center mt-2">
+  <div class="text-center p-6 md:p-12">
+    <h2 class="text-4xl font-bold">our drinks</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+    <div class="gallery-item w-full">
+      <label for="image1">
+        <img src="images\komorebi-1.jpg" alt="Image 1" class="w-full h-64 object-cover rounded cursor-pointer">
+        <span>Matcha Latte</span>
+      </label>
+      <input type="checkbox" id="image1" class="modal-toggle">
+      <div class="modal">
+        <div class="modal-box">
+          <img src="images\komorebi-1.jpg" alt="Image 1" class="w-full">
+          <label for="image1" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+        </div>
+      </div>
+    </div>
+    
+    <div class="gallery-item w-full">
+      <label for="image2">
+        <img src="images\komorebi-2.jpg" alt="Image 1" class="w-full h-64 object-cover rounded cursor-pointer">
+        <span>Coffee Drip </span>
+      </label>
+      <input type="checkbox" id="image2" class="modal-toggle">
+      <div class="modal">
+        <div class="modal-box">
+          <img src="images\komorebi-2.jpg" alt="Image 2" class="w-full">
+          <label for="image2" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-item w-full">
+      <label for="image3">
+        <img src="images\komorebi-3.jpg" alt="Image 3" class="w-full h-64 object-cover rounded cursor-pointer">
+      </label>
+      <input type="checkbox" id="image3" class="modal-toggle">
+      <div class="modal">
+        <div class="modal-box">
+          <img src="images\komorebi-3.jpg" alt="Image 3" class="w-full">
+          <label for="image3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item w-full">
+      <label for="image9">
+        <img src="images\komorebi-9.jpg" alt="Image 9" class="w-full h-64 object-cover rounded cursor-pointer">
+      </label>
+      <input type="checkbox" id="image9" class="modal-toggle">
+      <div class="modal">
+        <div class="modal-box">
+          <img src="images\komorebi-9.jpg" alt="Image 9" class="w-full">
+          <label for="image9" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item w-full">
+      <label for="image10">
+        <img src="images\komorebi-10.jpg" alt="Image 10" class="w-full h-64 object-cover rounded cursor-pointer">
+      </label>
+      <input type="checkbox" id="image10" class="modal-toggle">
+      <div class="modal">
+        <div class="modal-box">
+          <img src="images\komorebi-10.jpg" alt="Image 10" class="w-full">
+          <label for="image10" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-item w-full">
+      <label for="image11">
+        <img src="images\komorebi-11.jpg" alt="Image 11" class="w-full h-64 object-cover rounded cursor-pointer">
+      </label>
+      <input type="checkbox" id="image11" class="modal-toggle">
+      <div class="modal">
+        <div class="modal-box">
+          <img src="images\komorebi-11.jpg" alt="Image 11" class="w-full">
+          <label for="image11" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8">
+    <p class="text-lg mb-4">Interested in trying our drinks? Click the button below to locate our shop.</p>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=12.682064831498156, 102.19436626008581" target="_blank" class="btn btn-primary"  style="background-color: #A5D6A7; color: #4E342E;">Get Directions</a>
+  </div>
+  </div>
+</div>
   <!-- SPECIALTY COFFEE SECTION -->
 
   <!-- <div class="container mx-auto mt-10 mb-10 px-4">
